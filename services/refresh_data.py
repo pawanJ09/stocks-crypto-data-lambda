@@ -26,4 +26,3 @@ def fetch_stock_codes():
 
 def invoke_refresh(stock, url):
     response = requests.post(url=url, headers=headers, data=None)
-    print(response)
